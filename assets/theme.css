@@ -1,0 +1,14 @@
+:root {
+  --bg-primary: black;
+  --fg-primary: white;
+
+}
+
+@font-face {
+  font-family: font;
+  src: url(font.otf);
+}
+
+a {
+  outline: none;
+}
