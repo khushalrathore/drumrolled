@@ -51,3 +51,19 @@ document.addEventListener('keydown', function(event) {
     audio.currentTime = 0;
     audio.play();
 });
+document.getElementById('instrument').addEventListener('change', function() {
+    var instrument = this.value;
+    var numbersDiv = document.getElementById('numbers');
+    var leftButton = document.getElementById('leftButton');
+    var rightButton = document.getElementById('rightButton');
+
+    if (instrument === 'Piano' || instrument === 'Marimba') {
+      numbersDiv.classList.remove('hidden');
+      leftButton.classList.add('hidden');
+      rightButton.classList.add('hidden');
+    } else {
+      numbersDiv.classList.add('hidden');
+      leftButton.classList.remove('hidden');
+      rightButton.classList.remove('hidden');
+    }
+  });
