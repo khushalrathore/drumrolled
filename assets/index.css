@@ -137,8 +137,17 @@ nav {
   margin: 5rem;
 }
 
+nav>form>select {
+  font-size: 3rem;
 
+}
 
+nav>form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 
 
