@@ -19,9 +19,9 @@ a {
   }
 
   footer {
-    justify-content: space-evenly !important;
+    justify-content: center !important;
     align-items: center !important;
-    gap: 0rem !important;
+    gap: 3rem !important;
   }
 
 }
