@@ -85,4 +85,9 @@ a {
     background: white !important;
     color: black !important;
   }
+
+  .playbutton {
+    box-shadow: inset 0px 0px 10px rgba(224, 224, 224, 1) !important;
+
+  }
 }
