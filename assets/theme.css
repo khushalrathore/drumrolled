@@ -17,6 +17,20 @@ a {
   nav {
     display: none;
   }
+
+  .imageDiv {
+    background: url(https://i.kym-cdn.com/photos/images/original/002/738/959/060.gif);
+    width: 20dvw !important;
+    height: 20dvw !important;
+    background-size: cover;
+    background-position: center;
+    border-radius: 3dvw !important;
+    margin-top: 10rem !important;
+  }
+
+  .playbutton {
+    display: none !important;
+  }
 }
 
 
@@ -59,7 +73,8 @@ a {
 
   body,
   footer,
-  button {
+  button,
+  .playbutton {
     background: white !important;
     color: black !important;
   }
