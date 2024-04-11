@@ -13,16 +13,13 @@ body {
 }
 
 main {
-  position: absolute;
-  left: 20%;
-  right: 20%;
-
+  width: 100dvw;
 }
 
 .imageDiv {
   background: url(https://i.kym-cdn.com/photos/images/original/002/738/959/060.gif);
-  width: 576px;
-  height: 576px;
+  width: 50dvw;
+  height: 50dvw;
   background-size: cover;
   background-position: center;
   border-radius: 5dvw;
