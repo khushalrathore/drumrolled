@@ -236,9 +236,26 @@ footer {
   display: flex;
   width: 100%;
   color: white;
-  z-index: 0;
+  z-index: 10;
   justify-content: space-around;
   background: black;
+}
+
+.hidden {
+  display: none !important;
+  opacity: 0 !important;
+  pointer-events: none;
+}
+
+#hidden {
+  display: none !important;
+  opacity: 0 !important;
+  pointer-events: none;
+}
+
+#numbers {
+  display: none;
+
 }
 
 footer::after {

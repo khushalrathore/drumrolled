@@ -51,19 +51,33 @@ document.addEventListener('keydown', function(event) {
     audio.currentTime = 0;
     audio.play();
 });
+window.onload = function() {
+    var numbersDiv = document.getElementById('numbers');
+    numbersDiv.classList.add('hidden');
+};
 document.getElementById('instrument').addEventListener('change', function() {
     var instrument = this.value;
     var numbersDiv = document.getElementById('numbers');
     var leftButton = document.getElementById('leftButton');
     var rightButton = document.getElementById('rightButton');
 
-    if (instrument === 'Piano' || instrument === 'Marimba') {
+if (instrument.includes('Piano') || instrument.includes('Marimba')) {
       numbersDiv.classList.remove('hidden');
       leftButton.classList.add('hidden');
       rightButton.classList.add('hidden');
-    } else {
+    } 
+if (instrument.includes('Bongos')) {
       numbersDiv.classList.add('hidden');
       leftButton.classList.remove('hidden');
       rightButton.classList.remove('hidden');
-    }
+    } 
+    if (instrument.includes('Meow')) {
+  document.getElementById(`rightButton`).innerText = `MEOW`;
+    } 
+    if (instrument.includes('Cymball') || instrument.includes('Meow') || instrument.includes('Tambourine') || instrument.includes('Cowbell')) {
+      numbersDiv.classList.add('hidden');
+      leftButton.classList.add('hidden');
+      rightButton.classList.remove('hidden');
+    } 
+
   });
