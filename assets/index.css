@@ -22,7 +22,7 @@ main {
   height: 50dvw;
   background-size: cover;
   background-position: center;
-  border-radius: 5dvw;
+  border-radius: 100dvw;
 }
 
 a {
@@ -182,15 +182,32 @@ main {
 .playbutton {
   font-size: 3rem;
   border: 0.5rem solid rgba(19, 19, 19, 0.157);
-  border-radius: 1dvw;
+  border-radius: 100dvw;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 1rem;
-  color: rgba(255, 255, 255, 0.815);
+  padding: 2rem 2rem;
+  color: rgba(255, 255, 255, 0.71) !important;
+  font-weight: 900;
   outline: none !important;
   box-shadow: inset 2px 2px 10px rgb(231, 231, 231);
+  background: transparent;
+  position: relative;
+  z-index: 1
+}
+
+.playbutton::after {
+  position: absolute;
+  inset: 0;
+  border-radius: 100dvw;
+
+  content: '';
+  background: conic-gradient(lightskyblue, cyan, yellow, magenta, pink);
+  z-index: -1;
+  filter: blur(10px);
 
 }
+
+
 
 
 
