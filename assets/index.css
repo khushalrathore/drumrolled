@@ -141,11 +141,7 @@ nav>form>select {
   font-size: 3rem;
   border: 1px solid grey;
   border-radius: 100dvw;
-  background: linear-gradient(45deg, lightskyblue, cyan, yellow, magenta, pink);
-  font-weight: bold;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+
   text-decoration: none;
   position: relative;
   z-index: 0;
