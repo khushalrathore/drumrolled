@@ -202,9 +202,9 @@ main {
 }
 
 #numbers>button {
-  width: 2.5em !important;
-  padding: 0.5em !important;
-  height: 2.5em !important;
+  width: 2em !important;
+  padding: 0em !important;
+  height: 2em !important;
 }
 
 .playbutton::after {
