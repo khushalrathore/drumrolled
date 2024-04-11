@@ -19,10 +19,9 @@ a {
   }
 
   footer {
-    justify-content: center !important;
+    justify-content: space-evenly !important;
     align-items: center !important;
-    gap: 1rem !important;
-    flex-direction: column !important;
+    gap: 0rem !important;
   }
 
 }
