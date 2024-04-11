@@ -12,3 +12,15 @@
 a {
   outline: none;
 }
+
+@media only screen and (max-width: 768px) {
+  header>div {
+    display: none !important;
+  }
+
+  footer {
+    justify-content: center !important;
+    gap: 3rem !important
+  }
+
+}
