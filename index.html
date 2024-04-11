@@ -20,9 +20,16 @@
   <audio id="piano-8" src="assets/notes/C-sharp.mp3"></audio>
   <audio id="piano-9" src="assets/notes/D-sharp.mp3"></audio>
   <audio id="piano-0" src="assets/notes/E-sharp.mp3"></audio>
+  <audio id="meow" src="assets/notes/meow.mp3"></audio>
+  <audio id="tambourine" src="assets/notes/tambourine.mp3"></audio>
+  <audio id="cowbell" src="assets/notes/cowbell.mp3"></audio>
+
+
   <header>
     <div class="bongos-bar">
       <button class="btn-a">A</button>
+      <button class="btn-a" style="pointer-events: none;opacity: 0;">A</button>
+      <button class="btn-a" style="pointer-events: none;opacity: 0;">A</button>
       <button class="btn-d">D</button>
     </div>
     <div class="cymbal-bar">
@@ -31,14 +38,14 @@
     <div class="cowbell-bar">
       <button class="btn-f">F</button>
     </div>
-    <div class="tambourine-bar">
-      <button class="btn-b">B</button>
-    </div>
     <div class="meow-bar">
       <button class="btn-space">SPACE</button>
     </div>
+    <div class="tambourine-bar">
+      <button class="btn-b">B</button>
+    </div>
     <div class="piano-bar">
-      <button class="btn-1">1</button>
+      <button class="btn-1" id="active">1</button>
       <span class="triple-dots">...</span>
       <button class="btn-9">9</button>
       <button class="btn-0">0</button>
@@ -53,18 +60,17 @@
   </header>
   <main>
 
-
-
   </main>
   <footer>
     <div>Website by <a href="https://www.linkedin.com/in/khushalrathore" target="_blank"><i>Khushal
           Rathore</i></a></div>
-    <div>Inspired by <a href="https://bongo.cat/" style="  background-image: linear-gradient(to right, white, white);font-weight: bold;
+    <div>Inspired by <a href="https://bongo.cat/" style="    background: linear-gradient(45deg, lightskyblue, cyan, yellow,magenta, pink);font-weight: bold;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;">bongo.cat</a></div>
   </footer>
   <script src="assets/index.js"></script>
+  <script src="assets/runaway.js"></script>
 </body>
 
 </html>

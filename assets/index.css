@@ -17,6 +17,10 @@ a {
   color: inherit;
 }
 
+main {
+  background: linear-gradient(45deg, blue, cyan, magenta, red, pink);
+
+}
 
 
 header {
@@ -26,8 +30,9 @@ header {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   place-content: center;
-  background: white;
-  padding-top: 1rem;
+  /* background: linear-gradient(45deg, lightskyblue, cyan, magenta, red, pink); */
+  background: linear-gradient(45deg, lightskyblue, cyan, yellow, magenta, pink);
+  padding-block: 1rem;
   width: 100%;
 }
 
@@ -45,12 +50,13 @@ header>div {
 header>div::before {
   position: absolute;
   top: 0;
-  left: 0;
   display: flex;
   justify-content: center;
   min-width: 100%;
-  content: 'HEY';
+  content: 'Music Instrument';
+  color: black;
   background: none;
+  text-transform: uppercase;
 }
 
 header>div:nth-child(1):before {
@@ -82,8 +88,9 @@ header>div:nth-child(7):before {
 }
 
 header>div>button {
-  background: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
   padding: 0.75rem;
+  color: white;
   margin-top: 1.5rem;
   border-radius: 0.01rem;
   border: 1.5px solid rgb(64, 64, 64);
@@ -107,15 +114,19 @@ header>div>button::first-letter {
 }
 
 .btn-space {
-
   padding-inline: 1rem;
 }
 
 
 header>div>button:active,
 header>div>button:focus {
-  box-shadow: 2px 2px 50px rgba(0, 0, 255, 0.6);
+  box-shadow: 2px 2px 50px rgba(117, 117, 117, 0.6);
 }
+
+.active {
+  box-shadow: 2px 2px 50px rgba(0, 0, 255, 0.6) !important;
+}
+
 
 
 
@@ -128,5 +139,5 @@ footer {
   width: 100%;
   color: white;
   justify-content: space-around;
-  background: linear-gradient(90deg, blue, lightskyblue);
+  background: linear-gradient(90deg, black, black);
 }
