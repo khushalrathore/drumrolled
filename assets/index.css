@@ -141,29 +141,12 @@ nav>form>select {
   font-size: 3rem;
   border: 1px solid grey;
   border-radius: 100dvw;
-
+  color: black;
   text-decoration: none;
   position: relative;
   z-index: 0;
   padding: 1rem;
 
-}
-
-nav>form>select>option {
-  background: linear-gradient(45deg, lightskyblue, cyan, yellow, magenta, pink), black;
-  font-weight: bold;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  text-decoration: none;
-}
-
-nav>form>select::after {
-  position: absolute;
-  content: '';
-  inset: 0;
-  z-index: 1;
-  background: red;
 }
 
 nav>form {
