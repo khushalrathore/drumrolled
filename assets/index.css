@@ -10,6 +10,8 @@
 
 body {
   position: relative;
+  background: white;
+  color: white;
 }
 
 a {
@@ -17,10 +19,7 @@ a {
   color: inherit;
 }
 
-main {
-  background: linear-gradient(45deg, blue, cyan, magenta, red, pink);
-
-}
+main {}
 
 
 header {
@@ -34,11 +33,20 @@ header {
   background: linear-gradient(45deg, lightskyblue, cyan, yellow, magenta, pink);
   padding-block: 1rem;
   width: 100%;
+  border-bottom: 30px dotted white;
+}
+
+header::after {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  content: '';
+  background: linear-gradient(45deg, lightskyblue, cyan, yellow, magenta, pink);
+  filter: blur(50px);
 }
 
 header>div {
   position: relative;
-  font-weight: 600;
   display: flex;
   gap: 10px;
   max-width: 100%;
@@ -56,7 +64,6 @@ header>div::before {
   content: 'Music Instrument';
   color: black;
   background: none;
-  text-transform: uppercase;
 }
 
 header>div:nth-child(1):before {
@@ -85,6 +92,13 @@ header>div:nth-child(6):before {
 
 header>div:nth-child(7):before {
   content: 'Marimba';
+}
+
+.triple-dots {
+  color: black;
+  display: flex;
+  align-items: end;
+  height: 100%;
 }
 
 header>div>button {
@@ -138,6 +152,17 @@ footer {
   display: flex;
   width: 100%;
   color: white;
+  z-index: 0;
   justify-content: space-around;
-  background: linear-gradient(90deg, black, black);
+  background: black;
+}
+
+footer::after {
+  position: absolute;
+  inset: 0;
+  top: -0.5rem;
+  z-index: -1;
+  height: 25%;
+  content: '';
+  background: linear-gradient(45deg, lightskyblue, cyan, yellow, magenta, pink);
 }
