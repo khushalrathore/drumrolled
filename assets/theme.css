@@ -72,7 +72,12 @@ a {
     box-shadow: inset 0px 0px 10px rgb(43, 43, 43, 0.5) !important;
     border: 0.5rem solid rgba(222, 222, 222, 0.57) !important;
     color: rgba(238, 238, 238, 0.97) !important;
+  }
 
+  .playbutton:active {
+    box-shadow: inset 0px 0px 10px rgb(43, 43, 43) !important;
+    border: 0.5rem solid rgba(222, 222, 222, 0.57) !important;
+    color: rgba(238, 238, 238, 0.97) !important;
   }
 }
 
