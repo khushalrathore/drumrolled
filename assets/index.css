@@ -10,7 +10,7 @@
 
 body {
   position: relative;
-  background: white;
+  background: black;
   color: white;
 }
 
@@ -32,7 +32,6 @@ header {
   background: linear-gradient(45deg, lightskyblue, cyan, yellow, magenta, pink);
   padding-block: 1rem;
   width: 100%;
-  border-bottom: 30px dotted white;
 }
 
 header::after {
@@ -131,10 +130,6 @@ header>div>button::first-letter {
 }
 
 
-header>div>button:active,
-header>div>button:focus {
-  box-shadow: 2px 2px 50px rgba(117, 117, 117, 0.6);
-}
 
 .active {
   box-shadow: 2px 2px 50px rgba(0, 0, 255, 0.6) !important;
@@ -161,7 +156,7 @@ footer::after {
   inset: 0;
   top: -0.5rem;
   z-index: -1;
-  height: 25%;
+  height: 5%;
   content: '';
   background: linear-gradient(45deg, lightskyblue, cyan, yellow, magenta, pink);
 }

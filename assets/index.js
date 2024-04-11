@@ -38,6 +38,9 @@ document.addEventListener('keydown', function(event) {
         case 'b':
             audio = document.getElementById('tambourine');
             break;
+        case 'c':
+            audio = document.getElementById('cymball');
+            break;
         case 'f':
             audio = document.getElementById('cowbell');
             break;
