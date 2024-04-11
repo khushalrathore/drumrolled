@@ -72,11 +72,11 @@ header>div:nth-child(3):before {
 }
 
 header>div:nth-child(4):before {
-  content: 'Tambourine';
+  content: 'Meow';
 }
 
 header>div:nth-child(5):before {
-  content: 'Meow';
+  content: 'Tambourine';
 }
 
 header>div:nth-child(6):before {
