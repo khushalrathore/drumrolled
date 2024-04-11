@@ -25,3 +25,23 @@ a {
   }
 
 }
+
+@media (prefers-color-scheme: dark) {
+
+  body,
+  footer,
+  button {
+    background: black !important;
+    color: white !important;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+
+  body,
+  footer,
+  button {
+    background: white !important;
+    color: black !important;
+  }
+}
