@@ -70,10 +70,7 @@ if (instrument.includes('Bongos')) {
       numbersDiv.classList.add('hidden');
       leftButton.classList.remove('hidden');
       rightButton.classList.remove('hidden');
-    } 
-    if (instrument.includes('Meow')) {
-  document.getElementById(`rightButton`).innerText = `MEOW`;
-    } 
+    }  
     if (instrument.includes('Cymball') || instrument.includes('Meow') || instrument.includes('Tambourine') || instrument.includes('Cowbell')) {
       numbersDiv.classList.add('hidden');
       leftButton.classList.add('hidden');
