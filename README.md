@@ -99,6 +99,4 @@ document.addEventListener('keydown', function(event) {
 ## Contact
 
 For any inquiries, please contact Khushal Rathore via [LinkedIn](https://www.linkedin.com/in/khushalrathore).
-```
 
-This README provides an overview of the project, guides on how to set it up, and explains its functionality, making it informative for a recruiter reviewing your code.
